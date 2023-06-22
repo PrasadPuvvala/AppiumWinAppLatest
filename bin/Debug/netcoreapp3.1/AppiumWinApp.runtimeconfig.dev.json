@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\iray3\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\iray3\\.nuget\\packages"
+    ]
+  }
+}
