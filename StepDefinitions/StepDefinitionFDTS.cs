@@ -79,7 +79,7 @@ namespace AppiumWinApp.StepDefinitions
                 }
             }
             catch (Exception e) { }
-
+//j//
             try
             {
                 if (System.IO.File.Exists(@"C:\Device C.xml"))
