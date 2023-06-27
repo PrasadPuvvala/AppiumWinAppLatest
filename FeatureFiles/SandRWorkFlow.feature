@@ -8,7 +8,7 @@ Scenario Outline: 01Test Case 1537268: Verify that battery ADL data is restored 
 	Given [Change channel side in FDTS<DeviceLeft>]
 	Given Launch FDTS WorkFlow And Flash Device "<DeviceId>" and "<DeviceLeftSlNo>" and "<FlashHI>" and "<DeviceLeft>"
 	When [Create a Patient and Fitting HI In FSW "<AlterFSWNo>" and "<DeviceId>" and "<DeviceLeftSlNo>" and "<DeviceLeft>"]
-    When [Verify StorageLayout Scenario By Changing Date and Confirm Cloud Icon "<DeviceId>" and "<DeviceLeft>" and "<DeviceLeftSlNo>"]
+        When [Verify StorageLayout Scenario By Changing Date and Confirm Cloud Icon "<DeviceId>" and "<DeviceLeft>" and "<DeviceLeftSlNo>"]
 	When [Cleaning up Capture and Restore Reports Before Launch SandR]
 	When [Change communication channel in S and R<DeviceLeft>]
 	When [Launch SandR "<DeviceId>" and "<DeviceLeftSlNo>"]
@@ -26,7 +26,7 @@ Scenario Outline: 01Test Case 1537268: Verify that battery ADL data is restored 
 	Examples:
 
 	| DeviceId   | DeviceLeftSlNo | FlashHI | DeviceRight | DeviceLeft |
-    #| LT961-DRW-UP | 2000800436   | Yes     | Right       | Left       |
+       #| LT961-DRW-UP | 2000800436   | Yes     | Right       | Left       |
 	| RE962-DRW |   2049043374   | Yes     | Right       | Left       |
 	#| RE962-DRWT | 2000803069     | Yes     | Right       | Left       |
 	 #| RT962-DRW | 2000800269     | Yes     | Right       | Left       |
