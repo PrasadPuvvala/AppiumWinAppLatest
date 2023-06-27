@@ -94,6 +94,7 @@ namespace MyNamespace
         /*   declaration and initialization of a string variable */
         
 //gh//
+        //gggggg//
         public static string workFlowProductSelection = "treeView";
         public static string storageLayOutDate = "WindowsForms10.Window.8.app.0.2804c64_r9_ad1";
         public static string algoTestProp = "";
